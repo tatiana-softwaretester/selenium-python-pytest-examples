@@ -4,10 +4,10 @@ from selenium.webdriver.common.by import By
 
 
 @pytest.mark.parametrize("item, url", [
-    ("Macbook Pro M1", "Macbook+Pro+M1"),
-    ("Dodge Viper", "Dodge+Viper"),
-    ("Nike Air Max", "Nike+Air+Max"),
-    ("Java Books", "Java+Books")
+    ("Skagen Women Watch", "Skagen+Women+Watch"),
+    ("Volkswagen Amarok", "Volkswagen+Amarok"),
+    ("Banana Republic Dress", "Banana+Republic+Dress"),
+    ("Math books", "Math+books")
 ])
 @pytest.mark.regressiontest
 def test_ebay_search_multiple_items(browser, item, url):
